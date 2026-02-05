@@ -1635,8 +1635,7 @@ async def handle_text_input(update: Update, context: ContextTypes.DEFAULT_TYPE, 
                  InlineKeyboardButton("60s", callback_data="attack_time_60"),
                  InlineKeyboardButton("90s", callback_data="attack_time_90")],
                 [InlineKeyboardButton("120s", callback_data="attack_time_120"),
-                 InlineKeyboardButton("180s", callback_data="attack_time_180"),
-                 InlineKeyboardButton("300s", callback_data="attack_time_300")],
+                 InlineKeyboardButton("180s", callback_data="attack_time_180")],
                 [InlineKeyboardButton("❌ Cancel", callback_data="cancel_operation")]
             ]
             reply_markup = InlineKeyboardMarkup(keyboard)
