@@ -1261,7 +1261,7 @@ async def set_cooldown_start(update: Update, user_id):
          InlineKeyboardButton("60s", callback_data="cooldown_60"),
          InlineKeyboardButton("90s", callback_data="cooldown_90")],
         [InlineKeyboardButton("120s", callback_data="cooldown_120"),
-         InlineKeyboardButton("180s", callback_data="cooldown_180"),
+         InlineKeyboardButton("180s", callback_data="cooldown_180")],
         [InlineKeyboardButton("❌ Cancel", callback_data="cancel_operation")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
